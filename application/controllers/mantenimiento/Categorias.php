@@ -15,7 +15,7 @@ class Categorias extends CI_Controller {
 			'categorias' => $this->Categorias_model->getCategorias(), 
 		);
 		$this->load->view("layouts/header");
-                 $this->load->view("layouts/navbar");
+                $this->load->view("layouts/navbar");
 		$this->load->view("layouts/aside");
 		$this->load->view("admin/categorias/list",$data);
 		$this->load->view("layouts/footer");
@@ -25,7 +25,7 @@ class Categorias extends CI_Controller {
 	public function add(){
 
 		$this->load->view("layouts/header");
-                 $this->load->view("layouts/navbar");
+                $this->load->view("layouts/navbar");
 		$this->load->view("layouts/aside");
 		$this->load->view("admin/categorias/add");
 		$this->load->view("layouts/footer");

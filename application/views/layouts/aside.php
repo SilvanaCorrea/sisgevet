@@ -16,8 +16,9 @@
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="<?php echo base_url();?>mantenimiento/categorias"><i class="fa fa-minus"></i> Categorias</a></li>
-                            <li><a href="<?php echo base_url();?>mantenimiento/clientes"><i class="fa fa-minus"></i> Clientes</a></li>
+                            <li><a href="<?php echo base_url();?>mantenimiento/presentacion"><i class="fa fa-minus"></i> Presentación</a></li>
                             <li><a href="<?php echo base_url(); ?>mantenimiento/productos"><i class="fa fa-minus"></i> Productos</a></li>
+                            <li><a href="<?php echo base_url();?>mantenimiento/clientes"><i class="fa fa-minus"></i> Clientes</a></li>                           
                         </ul>
                     </li>
                     <li class="treeview">
@@ -54,8 +55,8 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Tipo Documentos</a></li>
-                            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Usuarios</a></li>
+                            <li><a href="../../index.html"><i class="fa fa-minus"></i> Tipo Documentos</a></li>
+                            <li><a href="../../index.html"><i class="fa fa-minus"></i> Usuarios</a></li>
                         </ul>
                     </li>
                 </ul>

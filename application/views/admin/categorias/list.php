@@ -26,8 +26,8 @@
                                 <tr>
                                     <th>#</th>
                                     <th>Nombre</th>
-                                    <th>Descripcion</th>
-                                    <th>opciones</th>
+                                    <th>Descripción</th>
+                                    <th>Opciones</th>
                                     
                                 </tr>
                             </thead>
